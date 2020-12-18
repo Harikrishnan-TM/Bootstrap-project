@@ -3,6 +3,16 @@
   }
   
   /* Style inputs */
+  body{
+    background-color: rgb(248, 245, 245);
+  }
+  .card-body{
+    text-align: center;
+  }
+  .heading-text{
+    text-align: center;
+  }
+  
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
