@@ -25,12 +25,17 @@
 .text {
   color: red;
   text-shadow: 2px 2px #0c0101;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 50px;
 }
-.services {
-  padding: 5%;
+.paragraph {
+  text-align: center;
+  font-size: 18px;
+}
+.heading-text {
+  padding: 4%;
+  text-align: center;
 }
 #service.card-img-top {
   height: 100px;
@@ -42,19 +47,19 @@
 #carousel-example-1z {
   z-index: -1;
 }
+.d-block {
+  height: 500px;
+}
 body {
   background-color: rgb(238, 231, 231);
 }
 .card-body {
   text-align: center;
 }
+
 #height.card {
   height: 60%;
   padding: 4px;
-}
-
-.heading-text {
-  text-align: center;
 }
 
 input[type="text"],
